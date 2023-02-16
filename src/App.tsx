@@ -7,12 +7,12 @@ import Dashboard from './pages/dashboard';
 import Team from './pages/team';
 import Invoices from './pages/invoices';
 import Contacts from './pages/contacts';
-// import Bar from './pages/bar/Bar';
+import Bar from './pages/bar';
 import Form from './pages/form';
-// import Line from './pages/line/Line';
-// import Pie from './pages/pie/Pie';
-// import FAQ from './pages/faq/FAQ';
-// import Geography from './pages/geography/Geography';
+import Line from './pages/line';
+import Pie from './pages/pie';
+import FAQ from './pages/faq';
+import Geography from './pages/geography';
 import Calendar from './pages/calendar';
 
 function App() {
@@ -32,11 +32,11 @@ function App() {
               <Route path="/invoices" element={<Invoices/>}/>
               <Route path="/contacts" element={<Contacts/>}/>
               <Route path="/form" element={<Form/>}/>
-              {/* <Route path="/bar" element={<Bar/>}/> */}
-              {/* <Route path="/pie" element={<Pie/>}/> */}
-              {/* <Route path="/line" element={<Line/>}/> */}
-              {/* <Route path="/faq" element={<FAQ/>}/> */}
-              {/* <Route path="/geography" element={<Geography/>}/> */}
+              <Route path="/bar" element={<Bar/>}/>
+              <Route path="/pie" element={<Pie/>}/>
+              <Route path="/line" element={<Line/>}/>
+              <Route path="/faq" element={<FAQ/>}/>
+              <Route path="/geography" element={<Geography/>}/>
               <Route path="/calendar" element={<Calendar/>}/>
             </Routes>
           </main>
