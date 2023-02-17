@@ -48,10 +48,10 @@ const Calendar = () => {
             <Box display="flex" justifyContent="space-between">
                 {/* Calendar Sidebar */}
                 <Box
-                    flex="1 1 20%"
+                    flex={"1 1 20%"}
                     sx={{ backgroundColor: colors.primary[400]}}
-                    p="15px"
-                    borderRadius="4px"
+                    p={"15px"}
+                    borderRadius={"4px"}
                     >
                     <Typography variant="h5">Events</Typography>
                     <List>
@@ -84,7 +84,7 @@ const Calendar = () => {
                 {/* Calendar */}
                 <Box flex="1 1 100%" ml="15px">
                     <FullCalendar
-                        height="75vh"
+                        height={"75vh"}
                         plugins={[
                             dayGridPlugin,
                             timeGridPlugin,
@@ -96,7 +96,7 @@ const Calendar = () => {
                             center: "title",
                             right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth",
                         }}
-                        initialView="dayGridMonth"
+                        initialView={"dayGridMonth"}
                         editable={true}
                         selectable={true}
                         selectMirror={true}

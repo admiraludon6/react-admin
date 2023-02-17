@@ -53,8 +53,8 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
         stacked: true,
         reverse: false,
       }}
-      yFormat=" >-.2f"
-      curve="catmullRom"
+      yFormat={" >-.2f"}
+      curve={"catmullRom"}
       axisTop={null}
       axisRight={null}
       axisBottom={{

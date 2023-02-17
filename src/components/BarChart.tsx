@@ -40,7 +40,7 @@ const BarChart = ({ isDashboard = false }) => {
         },
       }}
       keys={["hot dog", "burger", "sandwich", "kebab", "fries", "donut"]}
-      indexBy="country"
+      indexBy={"country"}
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
       padding={0.3}
       valueScale={{ type: "linear" }}
@@ -119,7 +119,7 @@ const BarChart = ({ isDashboard = false }) => {
           ],
         },
       ]}
-      role="application"
+      role={"application"}
       barAriaLabel={function (e) {
         return e.id + ": " + e.formattedValue + " in country: " + e.indexValue;
       }}
